@@ -1,0 +1,80 @@
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 80%; 
+    align-items: center;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    width: 100%; 
+}
+
+.form-group_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #8956F3;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+    background-color: #9568f7;
+}

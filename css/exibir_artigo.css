@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_header {
+    width: 100%;
+    background-color: #fff;
+}
+
+.main_header .main_header_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.main_header .main_header_content .logo {
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+  }
+
+.main_header .main_header_content .main_header_content_menu {
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.main_header_content_menu ul {
+    display: flex;
+  align-items: stretch;
+  font-weight: 600;
+}
+
+.main_header_content_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_header_content_menu ul li a {
+    padding: 0 26px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #2d3142;
+}
+
+.home {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.home_container {
+    width: 100%;
+    max-width: 60%;
+    padding: 40px 20px 20px;
+}
+
+.content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.home_img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 600px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.home_text h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #333;
+}
+
+.home_text p {
+    margin: 10px 0 0;
+    font-size: 19px;
+    white-space: pre-line;
+    max-width: 100%;
+    word-wrap: break-word;
+    color: #333;
+}
