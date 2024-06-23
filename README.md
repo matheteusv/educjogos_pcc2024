@@ -1,12 +1,12 @@
-# pcc_educjogos_2024
+# educjogos_pcc2024
 
-Projeto de conclusão de curso da Escola Técnica de Ceilândia do módulo III de T.I. - Grupo Educ Jogos. <br>
+Projeto de conclusão de curso da Escola Técnica de Ceilândia (ETC) do módulo III de TI - Grupo Educ Jogos. <br>
 Por: Luiz Felipe Rodrigues da Silva e Matheus Victor Souza Silva.
 
 ## Escopo, pré-requisitos e objetivo do projeto
 
 O objetivo geral do projeto é desenvolver um sistema web que funcione como um portal informativo educativo com maior foco em Jogos Educativos Digitais (JEDs). 
-Contendo artigos e informações relevantes nesta área. <br><br>
+Contendo artigos com informações relevantes nesta área e alguns jogos. <br><br>
 
 ## Funcionalidades ou requisítos
 
@@ -29,7 +29,3 @@ Contendo artigos e informações relevantes nesta área. <br><br>
 - MySQL Workbench
 - Astah
 - Git e GitHub
-
-
-
-
